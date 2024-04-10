@@ -1,0 +1,137 @@
+* {
+margin: 1px;
+padding: 0;
+box-sizing: border-box;
+}
+body {
+font-family: Arial, sans-serif;
+}
+header {
+background-color: #007bff;
+color: #fff;
+padding: 10px;
+text-align: center;
+}
+
+.tg  {border-collapse:collapse;border-color:#9ABAD9;border-spacing:0;}
+.tg td{background-color:#EBF5FF;border-color:#9ABAD9;border-style:solid;border-width:1px;color:#444;
+font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{background-color:#409cff;border-color:#9ABAD9;border-style:solid;border-width:1px;color:#fff;
+font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-ijnu{background-color:#ecf4ff;color:#00009b;font-weight:bold;text-align:left;vertical-align:top}
+.tg .tg-13xh{background-color:#ecf4ff;color:#00009b;text-align:left;vertical-align:top}
+
+button {
+color: #ffffff;
+background-color: #2d63c8;
+font-size: 15px;
+border: 1px solid #2d63c8;
+padding: 10px 10px;
+cursor: pointer
+}
+button:hover {
+color: #2d63c8;
+background-color: #ffffff;
+}
+h1 {
+margin: 0;
+}
+main {
+padding: 20px;
+}
+.code-block {
+background-color: #f1f1f1;
+padding: 10px;
+white-space: pre;
+}
+#toggleButton{
+background-color: #fff;
+color: #007bff;
+border: none;
+padding: 10px 10px;
+font-size: 16px;
+cursor: pointer;
+}
+.menu-bar {
+background-color: #fff;
+color: #007bff;
+border: none;
+padding: 10px 10px;
+font-size: 16px;
+cursor: pointer;
+}
+#chatbox {
+position: fixed;
+bottom: 20px;
+right: 20px;
+width: 400px;
+height: 75%;
+background-color: #f1f1f1;
+border: 1px solid #ccc;
+border-radius: 10px;
+box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+transition: transform 0.3s ease-in-out;
+}
+#chatbox.closed {
+transform: translateX(400px);
+}
+#content {
+padding: 10px;
+}
+#messages {
+overflow-y: auto;
+max-height: 200px;
+border: 1px solid #ccc;
+background-color: #f9f9f9;
+padding: 10px;
+}
+#prompt {
+margin-bottom: 10px;
+overflow-y: auto;
+/* Aggiungi barre di scorrimento verticali se necessario */
+max-height: 100px;
+/* Imposta un'altezza massima per la textarea */
+}
+#invia-button {
+background-color: #3498db;
+color: white;
+padding: 10px 20px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+margin: 4px 2px;
+cursor: pointer;
+border-radius: 12px;
+border: 2px solid #3498db;
+box-shadow: 2px 2px 5px #3498db;
+transition: background-color 0.3s, color 0.3s;
+}
+#invia-button:hover {
+background-color: #2980b9;
+border: 2px solid #2980b9;
+box-shadow: 2px 2px 5px #2980b9;
+}
+/* Stile per la clessidra animata */
+.loader {
+border: 3px solid #f3f3f3;
+/* Grey */
+border-top: 10px solid #3498db;
+/* Blue */
+border-radius: 50%;
+width: 30px;
+height: 30px;
+margin: 0 auto;
+animation: spin 2s linear infinite;
+animation-play-state: paused;
+/* La clessidra è in pausa di default */
+}
+/* Animazione della clessidra */
+@keyframes spin {
+0% {
+transform: rotate(0deg);
+}
+100% {
+transform: rotate(360deg);
+}
+}
