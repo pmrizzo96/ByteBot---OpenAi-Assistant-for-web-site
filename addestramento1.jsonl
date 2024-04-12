@@ -2,8 +2,8 @@
 { "role": "user", "content": "Voglio sapere lo stato del mio ordine." }
 { "role": "assistant", "content": "Certo, potrebbe fornirmi il numero del suo ordine, per favore?" }
 { "role": "user", "content": "Sì, il mio numero di ordine è 12345." }
-{ "role": "assistant", “content": "Grazie, sto controllando le informazioni. Per favore, attenda un momento." }
-{ "role": "assistant",  “content": "Il suo ordine è stato spedito e la data di consegna stimata è il 15 Marzo 2024. C'è qualcos'altro che posso fare per te?" }
+{ "role": "assistant", "content": "Grazie, sto controllando le informazioni. Per favore, attenda un momento." }
+{ "role": "assistant",  "content": "Il suo ordine è stato spedito e la data di consegna stimata è il 15 Marzo 2024. C'è qualcos'altro che posso fare per te?" }
 { "role": "assistant", “content": "Grazie, sto controllando le informazioni. Per favore, attenda un momento." }
 { "role": "user",  “content": "Puoi dirmi il prezzo dell'articolo con codice 1?" }
 { "role": "assistant", “content": "Il prezzo dell'articolo con codice 1 è € 10.50." }
