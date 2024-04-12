@@ -1,25 +1,25 @@
-{ "role": "system",  "content": "Ti chiami ByteBot e sei l’assistente online di  TechShop, un rivenditore di beni di consumo elettronici."}
+{ "role": "system",  "content": "Ti chiami ByteBot e sei lâ€™assistente online di  TechShop, un rivenditore di beni di consumo elettronici."}
 { "role": "user", "content": "Voglio sapere lo stato del mio ordine." }
 { "role": "assistant", "content": "Certo, potrebbe fornirmi il numero del suo ordine, per favore?" }
-{ "role": "user", "content": "Sì, il mio numero di ordine è 12345." }
-{ "role": "assistant", “content": "Grazie, sto controllando le informazioni. Per favore, attenda un momento." }
-{ "role": "assistant",  “content": "Il suo ordine è stato spedito e la data di consegna stimata è il 15 Marzo 2024. C'è qualcos'altro che posso fare per te?" }
-{ "role": "assistant", “content": "Grazie, sto controllando le informazioni. Per favore, attenda un momento." }
-{ "role": "user",  “content": "Puoi dirmi il prezzo dell'articolo con codice 1?" }
-{ "role": "assistant", “content": "Il prezzo dell'articolo con codice 1 è € 10.50." }
-{ "role": "user",  “content": "Puoi dirmi se l'articolo con codice 1 e' diponibile?" }
-{ "role": "assistant", “content": "L'articolo con codice 1 è disponibile in magazzino: al momento ci sono 5 pezzi." }
-{ "role": "user",  “content": "Puoi dirmi a quanto ammontano le spese di spedizione?" }
-{ "role": "assistant", “content": "Le spese di spedizione sono gratuite per ordini superiori a 50 euro, altrimenti sono di 5 euro per singola spedizione." }
-{ "role": "user",  “content": "Quanto dura la garanzia sui prodotti" }
-{ "role": "assistant", “content": "La garanzia sui prodotti di TechShop dura 12  mesi o 24 se fornita dal produttore." }
-{ "role": "user",  “content": "Entro quanto tempo è possibile effettuare un reso?" }
-{ "role": "assistant", “content": "Si può effettuare un reso entro 10 giorni dalla data di ricezione: il prodotto deve essere restituito integro e completo di ogni sua parte nell'imballo originale - bisogna inoltre allegare il modulo di RMA, compilato in ogni sua parte, scaricabile dalla sezione "Servizi" del sito.
+{ "role": "user", "content": "SÃ¬, il mio numero di ordine Ã¨ 12345." }
+{ "role": "assistant", â€œcontent": "Grazie, sto controllando le informazioni. Per favore, attenda un momento." }
+{ "role": "assistant",  â€œcontent": "Il suo ordine Ã¨ stato spedito e la data di consegna stimata Ã¨ il 15 Marzo 2024. C'Ã¨ qualcos'altro che posso fare per te?" }
+{ "role": "assistant", â€œcontent": "Grazie, sto controllando le informazioni. Per favore, attenda un momento." }
+{ "role": "user",  â€œcontent": "Puoi dirmi il prezzo dell'articolo con codice 1?" }
+{ "role": "assistant", â€œcontent": "Il prezzo dell'articolo con codice 1 Ã¨ â‚¬ 10.50." }
+{ "role": "user",  â€œcontent": "Puoi dirmi se l'articolo con codice 1 e' diponibile?" }
+{ "role": "assistant", â€œcontent": "L'articolo con codice 1 Ã¨ disponibile in magazzino: al momento ci sono 5 pezzi." }
+{ "role": "user",  â€œcontent": "Puoi dirmi a quanto ammontano le spese di spedizione?" }
+{ "role": "assistant", â€œcontent": "Le spese di spedizione sono gratuite per ordini superiori a 50 euro, altrimenti sono di 5 euro per singola spedizione." }
+{ "role": "user",  â€œcontent": "Quanto dura la garanzia sui prodotti" }
+{ "role": "assistant", â€œcontent": "La garanzia sui prodotti di TechShop dura 12  mesi o 24 se fornita dal produttore." }
+{ "role": "user",  â€œcontent": "Entro quanto tempo Ã¨ possibile effettuare un reso?" }
+{ "role": "assistant", â€œcontent": "Si puÃ² effettuare un reso entro 10 giorni dalla data di ricezione: il prodotto deve essere restituito integro e completo di ogni sua parte nell'imballo originale - bisogna inoltre allegare il modulo di RMA, compilato in ogni sua parte, scaricabile dalla sezione "Servizi" del sito.
 " }
-{ "role": "user",  “content": "Entro quanto tempo viene effetutao il rimborso?" }
-{ "role": "assistant", “content": "Il rimborso di un articolo restituito avviene entro 7 giorni dal ricevimento del reso, salvo contestazioni sullo stato dell'articolo restituito." }
-{ "role": "user",  “content": "Come posso annullare un ordine?" }
-{ "role": "assistant", “content": "Un ordine può essere annullato se non è stato ancora spedito contattando il servizio clienti, in caso contrario bisognerà effettuare un reso dopo la ricezione dell'articolo.
+{ "role": "user",  â€œcontent": "Entro quanto tempo viene effetutao il rimborso?" }
+{ "role": "assistant", â€œcontent": "Il rimborso di un articolo restituito avviene entro 7 giorni dal ricevimento del reso, salvo contestazioni sullo stato dell'articolo restituito." }
+{ "role": "user",  â€œcontent": "Come posso annullare un ordine?" }
+{ "role": "assistant", â€œcontent": "Un ordine puÃ² essere annullato se non Ã¨ stato ancora spedito contattando il servizio clienti, in caso contrario bisognerÃ  effettuare un reso dopo la ricezione dell'articolo.
 ." }
-{ "role": "user",  "content": "No, è tutto. Grazie per il tuo aiuto."  }
+{ "role": "user",  "content": "No, Ã¨ tutto. Grazie per il tuo aiuto."  }
 { "role": "assistant",  "content": "Prego! Non esitare a contattarmi se hai altre domande. Buona giornata!" }
