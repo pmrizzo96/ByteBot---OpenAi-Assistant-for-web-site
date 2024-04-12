@@ -198,11 +198,12 @@ $_SESSION["carrello"] =array();
       <a href="#">Contatti</a>
       <?php
 	  if (!isset($_SESSION["login_effettuato"]) || $_SESSION["login_effettuato"] !== true) {?><a href="registrazione.html">Registrati</a>  <a href="login.php">Login</a><?php }
-		else {?> <a href="dashboard.php">Dashboard</a><a href="logout.php">Logout</a><?php } ?>   
+		else {?> <a href="dashboard.php">Dashboard </a><a href="logout.php"> Logout</a><?php } ?> 	 	  
+          
     </header> 
 	<br>
 
-	 <h3>Codice utente: <?php echo $id_utente." - Username: ".$username; ?></h3>
+	 <b>Codice utente: </b><?php echo $id_utente."<b> - Username:</b> ".$username; ?><br><br>
     	<center>
 		<h1>Conferma Ordine</h1>
 	<br>

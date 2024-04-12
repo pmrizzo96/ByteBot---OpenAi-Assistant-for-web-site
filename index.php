@@ -83,7 +83,7 @@ $id_utente = isset($_SESSION["id_utente"]) ? $_SESSION["id_utente"] : "...";
       <p>Dal pulsante "chiedilo a ByteBot", in alto a desta, si pu&ograve; attivare l'Assistente              
       </p>
 		<br><br><br><br>	  
-      <p><center><h2>.... lavori in corso ....</h2></center>              
+      <p><center><h2>.... Prova a chiedere "cosa puoi fare per me?" ....</h2></center>              
       </p>  	  
     </div>       
 <script>

@@ -98,7 +98,7 @@ $conn->close();
       <a href="#">Contatti</a>
       <?php
 	  if (!isset($_SESSION["login_effettuato"]) || $_SESSION["login_effettuato"] !== true) {?><a href="registrazione.html">Registrati</a>  <a href="login.php">Login</a><?php }
-		else {?> <a href="dashboard.php">Dashboard</a><a href="logout.php">Logout</a><?php } ?> 	 	  
+		else {?> <a href="dashboard.php">Dashboard </a><a href="logout.php"> Logout</a><?php } ?> 	 	  
           
     </div>                            
     <div align="right">
